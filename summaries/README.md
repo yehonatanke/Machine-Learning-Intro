@@ -32,7 +32,7 @@ $$
 
 is a subspace of $\mathbb{R}^3$.
 
----
+
 
 ## Advanced Linear Transformations
 - **Definition**: A linear transformation $T: V \to W$ satisfies $T(u + v) = T(u) + T(v)$ and $T(cu) = cT(u)$.
@@ -44,7 +44,7 @@ is a subspace of $\mathbb{R}^3$.
 
 $T(x, y) = (x + y, x - y)$ has $\text{Ker}(T) = \{(0, 0)\}$ and $\text{Im}(T) = \mathbb{R}^2$.
 
----
+
 
 ## Inner Product Spaces
 - **Definition**: An inner product space is a vector space with an additional operation $\langle u, v \rangle$ satisfying:
@@ -107,7 +107,7 @@ $$
   $v_k' = v_k - \sum_{i=1}^{k-1} \frac{\langle v_k,v_i\rangle}{\|v_i\|^2}v_i$
 - Example: Orthogonalizing $\{(1,1,0), (1,0,1), (0,1,1)\}$
 - 
----
+
 
 ## Eigendecomposition
 - **Definition**: $A = PDP^{-1}$, where $D$ is diagonal and contains eigenvalues, and $P$ contains eigenvectors as columns.
@@ -122,7 +122,7 @@ $$
 
 has eigenvalues $\lambda = 5, 2$.
 
----
+
 
 ## Jordan Forms
 - **Definition**: $J$ is a block diagonal matrix of the form:
@@ -149,7 +149,7 @@ J = \begin{bmatrix} 5 & 1 \\
 0 & 5 \end{bmatrix}
 $$
 
----
+
 
 ## Singular Value Decomposition (SVD)
 - **Definition**: $A = U \Sigma V^T$, where:
@@ -165,7 +165,7 @@ $$
 
 can be decomposed into $U$, $\Sigma$, and $V^T$.
 
----
+
 
 ## Matrix Factorizations
 - **QR Decomposition**: $A = QR$ (orthogonal $Q$, upper triangular $R$).
@@ -188,7 +188,7 @@ Q = \begin{bmatrix} 0.8 & 0.6 \\
 0 & 1 \end{bmatrix}.
 $$
 
----
+
 
 ## Gradient, Divergence, Curl
 - **Gradient**:
@@ -223,7 +223,7 @@ $$
 \nabla f = (y, z, x).
 $$
 
----
+
 
 ## Jacobian Matrices and Determinants
 - **Jacobian Matrix**:
@@ -253,7 +253,7 @@ J = \begin{bmatrix} 2x & 0 \\
 y & x \end{bmatrix}
 $$
 
----
+
 
 ## Hessian Matrices
 - **Definition**:
@@ -275,7 +275,7 @@ H = \begin{bmatrix} 2 & 0 \\
 0 & 2 \end{bmatrix}
 $$
 
----
+
 
 ## Multiple Integrals and Change of Variables
 - **Definition**:
@@ -293,7 +293,7 @@ $$
   x = r\cos\theta, \quad y = r\sin\theta
 $$
 
----
+
 
 ## Line and Surface Integrals
 - **Line Integral**:
@@ -314,7 +314,7 @@ $$
 \vec{F} = (y, -x), \quad C: x^2 + y^2 = 1
 $$
 
----
+
 
 ## Theorems (Green, Stokes, Gauss)
 - **Green's Theorem**: Relates a line integral to a double integral over the region $R$ bounded by $C$.
@@ -326,7 +326,7 @@ $$
 - **Stokes' Theorem**: Generalizes Green’s theorem to 3D surfaces.
 - **Gauss' Theorem**: Relates the flux through a surface to the divergence within the volume.
 
----
+
 
 ## Connections Between Topics
 - **Linear Approximations**: Gradient and Jacobian relate to tangent planes.
@@ -337,4 +337,4 @@ $$
 - **Coordinate Transformations**: Use Jacobians for multivariable transformations.
 - **Differential Forms**: Generalize integrals to arbitrary dimensions.
 
----
+
