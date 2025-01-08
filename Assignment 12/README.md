@@ -1,4 +1,4 @@
-## Problem 3
+## (Q1) - Problem 3
 
 Consider the linear regression problem and recall that the least-squares estimate $\hat{w}_{\text{LS}}$ satisfies the normal equations, i.e.,  
 ```math
@@ -57,3 +57,24 @@ When $X$ has a full column rank, we can write
 ```
 
 ---
+
+Here is the exact text from the image:
+
+---
+
+## (Q2) - Problem 4
+
+Recall that the least squares estimate of $w$ is given by $\hat{w}_{LS} = X^{\dagger} y$, 
+
+where $X^{\dagger} = (X^T X)^{-1} X^T$, and that $\hat{y} = X \hat{w}_{LS}$ ($X$ is a $N$ by $d+1$ matrix). 
+
+We define the **hat matrix** $H$ as follows:
+
+```math
+H = X (X^T X)^{-1} X^T,
+```
+
+such that $\hat{y} = H y$. Show the following properties of $H$:
+
+- Every eigenvalue of $H$ is either 0 or 1.
+- How many eigenvalues of $H$ are 1? What is the rank of $H$? 
