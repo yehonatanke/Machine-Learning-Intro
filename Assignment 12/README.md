@@ -58,10 +58,6 @@ When $X$ has a full column rank, we can write
 
 ---
 
-Here is the exact text from the image:
-
----
-
 ## (Q2) - Problem 4
 
 Recall that the least squares estimate of $w$ is given by $\hat{w}_{LS} = X^{\dagger} y$, 
