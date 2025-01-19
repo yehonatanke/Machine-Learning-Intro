@@ -1,0 +1,65 @@
+Types of learning:
+==supervised learning==
+pairs of input object & desired output value (label) (training data)
+goal: predict the labels for new unseen instances (test data)
+הלמידה הנפוצה ביותר בקורס שלנו.
+
+==unsupervized learning==
+We recieive instances with NO LABELING
+goal: better understand the data (discover hidden sturcture)
+Clustering נכלל תחת הסוג למידה הזה.
+Clustering a data set into subset of similar objects
+{תיוג (labeling) הוא תהליך מאוד יקר ולכן הרבה בעיות נופלות תחת הסוג למידה הזה}
+{Anomaly detection - מציאת מקרים חריגים בdata, כמו חלוקת spam ולא spam בדואר או fraud transaction למשל}
+
+==reinforcement learning==
+{מצב ביניים בין supervised לunsupervized}
+{צריך למצוא את האיזון בין exploration ל- exploitation}
+{exploration - לנסות אלטרנטיבות חדשות בשביל לגלות דברים חדשים}
+{exploitation - 
+{driving cars / flying drones הם חלק מהבעיות תחת סוג הלמידה הזה}
+
+==active vs passive learning == 
+{active - מתקשר עם הסביבה בזמן האימון}
+{passive - מתבונן על המידע מהסביבה}
+{סינון spam בדואר הוא passive מיכיוון שאנחנו מחכים שהמשתמש יתייג אם זה spam או לא ואז מהמידע הזה אנחנו לומדים איך לפעול (המכונה) }
+{active learner אומר למשתמש איזה דוגמאות הוא רוצה על מנת לשפר את תהליך הלמידה שלו, לכן יבקש לכסות את האזורים האלה }
+
+==online vs. batch learning==
+{online - מצב שבו הלומד מגיב לאורך תהליך הלמידה (למשל סוכן מניות שצריך לקבל החלטה מידי יום ע"פ המידע שמתקבל כל יום) }
+{batch - מצב שבו הלומד מחכה לקבל את *כל* דוגמאות האימון ורק לאחר מכן הוא מעבד את המידע ורוכש את המיומנות ומפעיל על data חדש }
+{הבדל - עניין העדכון בתהליך הלמידה }
+
+===========================================================================
+**** מיקוד קורס - passive learning , batch learning, supervised learning ****
+===========================================================================
+
+אדמינסטרציה - 
+הרצאות כל חמישי 5-8
+קבוצה אחת
+דרישות קדם - רמה גבוהה של מתמטיקה (בעיקר אלגברה לינארית והסתברות) , ספרים מומלצים - mathematics for machine learning / linear algebra and optimization for machine learning
+מינימום 5 מטלות, ככל שמגישים יותר בוחרים את ה5 עם הציונים הגבוהים ביותר.
+בכל ממ"ן המרכז יבקש לפתור תרגילים ממקבץ התרגילים שנמצאים בחוברת
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
